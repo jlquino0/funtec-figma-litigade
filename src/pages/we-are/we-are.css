@@ -1,0 +1,13 @@
+.box-blue {
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 75%;
+}
+
+
+@media (max-width: 768px) {
+    .box-blue {
+        top: 75%;
+    }
+}
