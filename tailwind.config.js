@@ -20,6 +20,7 @@ export default {
       fontFamily: {
         'Martel': ['Martel', 'serif'],
         'Open-Sans': ['Open Sans', 'sans-serif'],
+        'Montserrat': ['Montserrat', 'sans-serif'],
       },
     },
   },

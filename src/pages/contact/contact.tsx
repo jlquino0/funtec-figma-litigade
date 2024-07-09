@@ -33,7 +33,7 @@ function Contact() {
                                     <div className="p-4 px-4 md:p-8 mb-6">
                                         <form className="" action="" method="POST" onSubmit={handleRegistration}>
                                             <p className='inline-block text-[#252B42] mb-1'>Contact Us</p> <br />
-                                            <h1 className="font-['Martel'] font-black text-5xl inline-block align-middle mb-4 text-[#252B42]">Make an Appoinment </h1>
+                                            <h1 className="font-['Martel'] font-bold text-4xl inline-block align-middle mb-4 text-[#252B42] pr-0 sm:pr-44">Make an Appoinment </h1>
                                             <div className="grid gap-4 gap-y-2 text-sm grid-cols-1 lg:grid-cols-2">
 
                                                 <div className="lg:col-span-2">
@@ -135,7 +135,7 @@ function Contact() {
                                                 </div>
                                             </div>
                                             <div className='grid grid-flow-col  mb-4 sm:mb-8 mt-5'>
-                                                <button className="bg-[#784F33] text-white font-bold py-2 px-5 rounded font-font-sans text-xs w-full sm:w-48" disabled={!canSubmit}>
+                                                <button className="bg-[#784F33] text-white font-bold py-2 px-5 rounded font-font-sans text-xs w-full sm:w-48 h-12" disabled={!canSubmit}>
                                                     Book Appointment
                                                 </button>
                                             </div>
@@ -152,7 +152,7 @@ function Contact() {
                     <h3 className="font-['Martel'] font-black text-xl inline-block align-middle text-[#252B42]">Request A Free Consultation</h3>
                     <p>the quick fox jumps over the lazy dog </p>
                 </div>
-                <button className="bg-[#784F33] text-white font-bold py-2 px-4 rounded font-font-sans text-xs">
+                <button className="bg-[#784F33] text-white font-bold py-2 px-4 rounded font-font-sans text-xs ">
                     Contact Us
                 </button>
 

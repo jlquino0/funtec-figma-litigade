@@ -2,7 +2,7 @@ import './we-are.css';
 
 function Weare() {
     return (
-        <section className="bg-[#FAFAFA] relative mb-40">
+        <section className="bg-[#FAFAFA] relative mb-24 sm:mb-20">
             <div className="flex flex-wrap justify-center">
                 <div className="p-4 max-w-sm">
                     <div className="flex items-center mt-20">

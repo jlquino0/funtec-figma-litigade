@@ -89,12 +89,12 @@ function Home() {
                     <div className="grid grid-cols-1 md:grid-cols-2 place-items-center">
                         <div className="text-center md:text-left mb-4 mt-5 sm:mb-10 sm:mt-20">
                             <h1 className="font-['Martel'] font-black text-3xl sm:text-5xl inline-block align-middle mb-4 text-[#252B42]">Help to reclaim your <br /> life and freedom</h1>
-                            <p className='inline-block align-middle text-[#737373] mb-8'>We know how large objects will act, but things on a small scale.</p>
+                            <p className="inline-block align-middle text-[#737373] mb-8 font-['Montserrat'] font-medium">We know how large objects will act, but things on a small scale.</p>
                             <div className='flex flex-wrap justify-start mb-4 sm:mb-8'>
                                 <button className="bg-[#784F33] text-white font-bold py-2 px-4 rounded-full mx-2 inline-block align-middle">
                                     Get Quote Now
                                 </button>
-                                <button className="bg-transparent text-[#784F33] border-2 border-[#784F33] font-bold py-2 px-4 rounded-full mx-2 inline-block align-middle">
+                                <button className="bg-transparent text-[#784F33] border border-[#784F33] font-bold py-2 px-4 rounded-full mx-2 inline-block align-middle">
                                     Learn More
                                 </button>
 
@@ -110,7 +110,7 @@ function Home() {
                                             Name*
                                         </label>
                                         <input
-                                            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline [&:not(:placeholder-shown):not(:focus):invalid~span]:block invalid:[&:not(:placeholder-shown):not(:focus)]:border-red-400 valid:[&:not(:placeholder-shown)]:border-green-500"
+                                            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline [&:not(:placeholder-shown):not(:focus):invalid~span]:block invalid:[&:not(:placeholder-shown):not(:focus)]:border-red-400 valid:[&:not(:placeholder-shown)]:border-green-500 h-14"
                                             id="name" pattern="[0-9a-zA-Z ]{6,}" type="text" placeholder="Full Name" required
                                             onChange={(e) => {
                                                 setData({
@@ -129,7 +129,7 @@ function Home() {
                                             Email*
                                         </label>
                                         <input
-                                            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline [&:not(:placeholder-shown):not(:focus):invalid~span]:block invalid:[&:not(:placeholder-shown):not(:focus)]:border-red-400 valid:[&:not(:placeholder-shown)]:border-green-500"
+                                            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline [&:not(:placeholder-shown):not(:focus):invalid~span]:block invalid:[&:not(:placeholder-shown):not(:focus)]:border-red-400 valid:[&:not(:placeholder-shown)]:border-green-500 h-14"
                                             id="email" type="email" placeholder="example@gmail.com" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" required
                                             onChange={(e) => {
                                                 setData({
@@ -148,7 +148,7 @@ function Home() {
                                             Deparment*
                                         </label>
                                         <select
-                                            className="shadow border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                            className="shadow border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline h-14"
                                             id="service" name="service" required
                                             onChange={(e) => {
                                                 setData({
@@ -169,7 +169,7 @@ function Home() {
                                             Time*
                                         </label>
                                         <select
-                                            className="shadow  border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                            className="shadow  border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline h-14"
                                             id="service" name="service" required
                                             onChange={(e) => {
                                                 setData({
@@ -188,7 +188,7 @@ function Home() {
                                     </div>
                                     <div className="flex items-center justify-center mb-4 mt-8">
                                         <button
-                                            className="bg-[#295C7A] w-full text-white py-2 px-3 rounded-lg "
+                                            className="bg-[#295C7A] w-full text-white py-2 px-3 rounded-lg h-14"
                                             disabled={!canSubmit} >
                                             Book Appointment
                                         </button>
