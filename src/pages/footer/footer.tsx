@@ -120,7 +120,7 @@ function Footer() {
                     </div>
                 </div>
             </footer>
-            <div className="container bg-gradient-to-r from-[#0072B5] to-[#295C7A] w-full px-0 sm:px-36 py-6 lg:py-8">
+            <div className="bg-gradient-to-r from-[#0072B5] to-[#295C7A] w-full px-0 sm:px-36 py-6 lg:py-8">
                 <p className="text-white font-sans">Made With Love By Figmaland All Right Reserved</p>
             </div>
 

@@ -25,7 +25,7 @@ function Contact() {
     return (
         <>
             <div className="bg-cover bg-no-repeat bg-[url('assets/backgroud2.jpg')]">
-                <section className="container">
+                <section className="">
                     <div className="grid grid-cols-1 md:grid-cols-2 place-items-center">
                         <div className="text-center md:text-left mb-4 mt-5 sm:mb-10 sm:mt-20 ">
                             <div className="flex items-center justify-center">
@@ -147,7 +147,7 @@ function Contact() {
                     </div>
                 </section>
             </div>
-            <div className="container bg-white w-full flex flex-wrap justify-between px-10 py-12 sm:px-40">
+            <div className="bg-white w-full flex flex-wrap justify-between px-10 py-12 sm:px-40">
                 <div>
                     <h3 className="font-['Martel'] font-black text-xl inline-block align-middle text-[#252B42]">Request A Free Consultation</h3>
                     <p>the quick fox jumps over the lazy dog </p>

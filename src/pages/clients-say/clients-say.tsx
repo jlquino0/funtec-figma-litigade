@@ -2,7 +2,7 @@ function ClientsSay() {
 
   return (
     <>
-      <div className=" bg-[#F3F3F3] container pt-6 pb-8">
+      <div className=" bg-[#F3F3F3] pt-6 pb-8 bg-cover bg-no-repeat">
         <div className="flex flex-wrap justify-center mt-5 ">
           <div className="p-4 max-w-sm">
             <div className="flex items-center">
